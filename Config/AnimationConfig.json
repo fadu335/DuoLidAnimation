@@ -1,0 +1,10 @@
+{
+  "startAngle": 100.0,
+  "endAngle": 8.0,
+  "perspectiveStrength": 0.38,
+  "blurStrength": 36,
+  "darkness": 0.9,
+  "verticalCompression": 1.0,
+  "easing": "smoothstep",
+  "animationSensitivity": 1.0
+}

@@ -1,0 +1,45 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+23296D562465C93B87967BFA = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/AppDelegate.swift"; sourceTree = "<group>"; };
+7B893B554F0AC7F5F26BEDC8 = { isa = PBXBuildFile; fileRef = 23296D562465C93B87967BFA; };
+9FF1DF46BAEAD89E325E92B5 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/Main.swift"; sourceTree = "<group>"; };
+148651FFEA6823D17C6CF78F = { isa = PBXBuildFile; fileRef = 9FF1DF46BAEAD89E325E92B5; };
+A4B5ED6781959F3F874E8436 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Capture/ScreenCaptureManager.swift"; sourceTree = "<group>"; };
+06943E41B19F383AED116201 = { isa = PBXBuildFile; fileRef = A4B5ED6781959F3F874E8436; };
+AFDEDC8B614A12D171F1CEED = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LidSensor/LidAngleSensor.swift"; sourceTree = "<group>"; };
+BB161FF80D5C79A574BB7F2B = { isa = PBXBuildFile; fileRef = AFDEDC8B614A12D171F1CEED; };
+858AFD892C4BDFBC9D29566A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Overlay/OverlayWindowController.swift"; sourceTree = "<group>"; };
+7767BB5BC5C2DB889E2F991F = { isa = PBXBuildFile; fileRef = 858AFD892C4BDFBC9D29566A; };
+54A630F209D2A64504F22563 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Renderer/AnimationController.swift"; sourceTree = "<group>"; };
+CADAF13FAAFE0C1A9E620484 = { isa = PBXBuildFile; fileRef = 54A630F209D2A64504F22563; };
+99642E840AFE8CA6FD0599DE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Renderer/MetalRenderer.swift"; sourceTree = "<group>"; };
+DD5CA4341EE5D42FE0B55AC3 = { isa = PBXBuildFile; fileRef = 99642E840AFE8CA6FD0599DE; };
+7E0A542FAB9AE4E298FCE735 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Renderer/ProgressiveBlur.swift"; sourceTree = "<group>"; };
+2BB1E35A3A877D6C8F33C2D3 = { isa = PBXBuildFile; fileRef = 7E0A542FAB9AE4E298FCE735; };
+B32FDEF49B8304D744DFAB72 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities/AppError.swift"; sourceTree = "<group>"; };
+29CC47ADE0C975A6009B8703 = { isa = PBXBuildFile; fileRef = B32FDEF49B8304D744DFAB72; };
+C56C17102E772A04FD61753A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diagnostics/SelfTest.swift"; sourceTree = "<group>"; };
+C7CEE9C9EE3A3F02634ED433 = { isa = PBXBuildFile; fileRef = C56C17102E772A04FD61753A; };
+1AA19B8FE3C9452BF5F52C11 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diagnostics/RenderReference.swift"; sourceTree = "<group>"; };
+F46AFEE75C4A4C9AC0949124 = { isa = PBXBuildFile; fileRef = 1AA19B8FE3C9452BF5F52C11; };
+E01531DE5E0F5B0B3E546779 = { isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "Shaders/Shaders.metal"; sourceTree = "<group>"; };
+6B76CDB165F8BB566900D691 = { isa = PBXBuildFile; fileRef = E01531DE5E0F5B0B3E546779; };
+C9B4B3666B28186EC574AC4B = { isa = PBXFileReference; lastKnownFileType = text.json; path = "Config/AnimationConfig.json"; sourceTree = "<group>"; };
+9800CD08547CDAC618AE227D = { isa = PBXBuildFile; fileRef = C9B4B3666B28186EC574AC4B; };
+49C8921A602633DE6F8B351A = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App/Info.plist"; sourceTree = "<group>"; };
+CCD82FF7CA896813B2283FCA = { isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README.md"; sourceTree = "<group>"; };
+38A007151ABE87CC01A5B6E9 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuoLidAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (38A007151ABE87CC01A5B6E9,); name = Products; sourceTree = "<group>"; };
+325F10A6957A34D66CB8C0E4 = { isa = PBXGroup; children = (23296D562465C93B87967BFA,9FF1DF46BAEAD89E325E92B5,A4B5ED6781959F3F874E8436,AFDEDC8B614A12D171F1CEED,858AFD892C4BDFBC9D29566A,54A630F209D2A64504F22563,99642E840AFE8CA6FD0599DE,7E0A542FAB9AE4E298FCE735,B32FDEF49B8304D744DFAB72,C56C17102E772A04FD61753A,1AA19B8FE3C9452BF5F52C11,E01531DE5E0F5B0B3E546779,C9B4B3666B28186EC574AC4B,49C8921A602633DE6F8B351A,CCD82FF7CA896813B2283FCA,FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>"; };
+BCE16DD0260827ECF338C787 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (7B893B554F0AC7F5F26BEDC8,148651FFEA6823D17C6CF78F,06943E41B19F383AED116201,BB161FF80D5C79A574BB7F2B,7767BB5BC5C2DB889E2F991F,CADAF13FAAFE0C1A9E620484,DD5CA4341EE5D42FE0B55AC3,2BB1E35A3A877D6C8F33C2D3,29CC47ADE0C975A6009B8703,C7CEE9C9EE3A3F02634ED433,F46AFEE75C4A4C9AC0949124,); runOnlyForDeploymentPostprocessing = 0; };
+0189424A5A60FED329FA868E = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (6B76CDB165F8BB566900D691,9800CD08547CDAC618AE227D,); runOnlyForDeploymentPostprocessing = 0; };
+7561BFB015D8F536760CB671 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+89E1FD6268CC0F221A2BE178 = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = "14.0"; SDKROOT = "macosx"; CLANG_ENABLE_MODULES = "YES"; SWIFT_VERSION = "6.0"; }; name = Debug; };
+E6DE6C99132752C914FEF632 = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = "14.0"; SDKROOT = "macosx"; CLANG_ENABLE_MODULES = "YES"; SWIFT_VERSION = "6.0"; }; name = Release; };
+862894B703A6DEDF96A9DD6C = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178,E6DE6C99132752C914FEF632,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+7082CC0B6FC1282FCEABD07A = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = "14.0"; SDKROOT = "macosx"; CLANG_ENABLE_MODULES = "YES"; SWIFT_VERSION = "6.0"; PRODUCT_NAME = "DuoLidAnimation"; PRODUCT_BUNDLE_IDENTIFIER = "local.duolid.animation"; INFOPLIST_FILE = "App/Info.plist"; GENERATE_INFOPLIST_FILE = "NO"; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = "Manual"; ENABLE_APP_SANDBOX = "NO"; ENABLE_HARDENED_RUNTIME = "NO"; SWIFT_STRICT_CONCURRENCY = "complete"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; }; name = Debug; };
+639A7CA24D39909E713B47F7 = { isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = "14.0"; SDKROOT = "macosx"; CLANG_ENABLE_MODULES = "YES"; SWIFT_VERSION = "6.0"; PRODUCT_NAME = "DuoLidAnimation"; PRODUCT_BUNDLE_IDENTIFIER = "local.duolid.animation"; INFOPLIST_FILE = "App/Info.plist"; GENERATE_INFOPLIST_FILE = "NO"; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = "Manual"; ENABLE_APP_SANDBOX = "NO"; ENABLE_HARDENED_RUNTIME = "NO"; SWIFT_STRICT_CONCURRENCY = "complete"; SWIFT_OPTIMIZATION_LEVEL = "-O"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; }; name = Release; };
+C57128001CE614BF8549D6BB = { isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A,639A7CA24D39909E713B47F7,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = C57128001CE614BF8549D6BB; buildPhases = (BCE16DD0260827ECF338C787,7561BFB015D8F536760CB671,0189424A5A60FED329FA868E,); buildRules = (); dependencies = (); name = DuoLidAnimation; productName = DuoLidAnimation; productReference = 38A007151ABE87CC01A5B6E9; productType = "com.apple.product-type.application"; };
+98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { LastSwiftUpdateCheck = 2600; LastUpgradeCheck = 2600; }; buildConfigurationList = 862894B703A6DEDF96A9DD6C; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en,Base,); mainGroup = 325F10A6957A34D66CB8C0E4; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E,); };
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }

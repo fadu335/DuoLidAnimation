@@ -1,0 +1,9 @@
+/build/
+/Diagnostics/*
+!/Diagnostics/Probe.swift
+!/Diagnostics/SelfTest.swift
+!/Diagnostics/RenderReference.swift
+/Utilities/toolchain/overlay.json
+*.xcuserstate
+xcuserdata/
+.DS_Store
